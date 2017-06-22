@@ -1,4 +1,4 @@
-%% 7-14-2016 - David Caldwell - script to look at stim spacing
+%% 6-22-2017 - David Caldwell - script to look at stim spacing
 % requires getEpochSignal.m , subtitle.m , numSubplots.m , vline.m
 
 %% initialize output and meta dir
@@ -13,7 +13,7 @@ close all; clear all; clc
 structureData = uiimport('-file');
 Sing = structureData.Sing;
 Stim = structureData.Stim;
-Stm0 = structureData.Stm0;
+%Stm0 = structureData.Stm0;
 Eco1 = structureData.ECO1;
 Eco2 = structureData.ECO2;
 Eco3 = structureData.ECO3;
